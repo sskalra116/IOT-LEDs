@@ -1,4 +1,4 @@
-#Goal
+# Goal
 The aim of this project was to control the frequency of blinking and brightness of LEDs using user button 
 press and to configure temperature sensor to read outside temperature and make the LED glow if it exceeds the threshold. 
 
