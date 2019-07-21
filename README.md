@@ -26,7 +26,9 @@ In the functions called, the first button does its respective job.
 # Part 2
 ## LED blinks once threshold temperature exceeds
 Circuit for part 2
+
 <img src="images/circuit2.PNG" >
+
 Working : -  When the temperature sensor is detected by raspberry pi, the 28-xxxxxxxxxxxx folder is created in the devices folder.
 The w1_slave command retrieves the outside temperature value detected by the sensor and prints it. 
 The value is a 5 digit string value that I converted to float value and divided by 1000 to convert to Celsius first and then to Fahrenheit.
